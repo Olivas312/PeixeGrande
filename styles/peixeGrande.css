@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 80vw;
+    height: 100vh;
+    margin: 0px auto;
+}
+p{
+    margin: 20px;
+}
+#pagina{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+.imagemCabecalho{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+#peixe{
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: end;
+    background-color: blue;
+}
+#grande{
+  width: 30%;
+   flex-wrap: wrap;
+   justify-content: start;
+   background-color: brown;
+
+}
+#navegacao{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    float: inline-end;
+    justify-content: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}
+h2{
+    background-color: black;
+    color: white;
+}
+
+#servicos{
+    width: 50%;
+    justify-content: start;
+
+}
+#agenda{
+    width: 50%;
+    justify-content: end;
+}
+#mapa{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 300px;
+    background-color: white;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
